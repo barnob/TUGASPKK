@@ -589,6 +589,90 @@ a.movie-item:hover {
   cursor: pointer;
 }
 
+.trailler-video {
+  width: 40%;
+  height: 40%;
+}
+
+.trailler-video video {
+  width: 150%;
+  height: 150%;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.trailler-box {
+  width: 400px;
+  height: 497px;
+  margin-left: 68%;
+  margin-top: -505px;
+  background: #000000b2;
+}
+
+.trailler-images {
+  width: 25%;
+  height: 25%;
+  margin-left: 20px;
+}
+
+.trailler-images img {
+  margin-top: 20px;
+}
+
+.movie-judul {
+  margin-left: 35%;
+  margin-top: -25%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.movie-judul h1 {
+  font-weight: 300;
+}
+
+.genre {
+  padding: 10px;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+
+.genre a {
+  text-transform: lowercase;
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 0 12px;
+  line-height: 5px;
+  border: 2px solid var(--main-color);
+  border-radius: 20px;
+}
+
+.box-line {
+  border: 1px solid #ffffff3a;
+  margin-top: 80px;
+  line-height: 100;
+  width: 90%;
+  height: 0px;
+  margin-left: 20px;
+}
+
+.synopsis {
+  margin-left: 20px;
+  width: 90%;
+}
+
+.synopsis h2 {
+  margin-top: 10px;
+  font-weight: 800;
+  color: var(--text-color);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.synopsis p {
+  margin-top: 5px;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 footer.section {
   margin-top: 80px;
   padding-bottom: 80px;
