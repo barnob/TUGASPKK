@@ -589,6 +589,42 @@ a.movie-item:hover {
   cursor: pointer;
 }
 
+.back {
+  width: 150px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.back i {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.back-logo {
+  width: 100px;
+  font-size: 30px;
+}
+
+.back-text {
+  margin-top: -36px;
+  margin-left: 50px;
+}
+
+.close-btn {
+  width: 150px;
+  margin-left: 30px;
+  background-color: var(--box-bg);
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: 0.5em;
+  border-radius: 20px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
 .trailler-video {
   width: 40%;
   height: 40%;
@@ -750,6 +786,67 @@ footer .content {
   .item-content-wraper {
     width: 50%;
   }
+
+  .trailler-video {
+    width: 50%;
+    height: 45%;
+  }
+
+  .trailler-video video {
+    margin-top: 10px;
+    margin-left: 110px;
+  }
+
+  .trailler-box {
+    width: 60%;
+    height: 450px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .trailler-images {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+  }
+
+  .trailler-images img {
+    margin-top: 20px;
+  }
+
+  .movie-judul {
+    margin-left: 200px;
+    margin-top: -125px;
+  }
+
+  .movie-judul h1 {
+    font-weight: 400;
+  }
+
+  .genre {
+    margin-left: 190px;
+    margin-top: 5px;
+  }
+
+  .box-line {
+    border: 1px solid #ffffff3a;
+    margin-top: 160px;
+    margin-left: 20px;
+  }
+
+  .synopsis {
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .synopsis h2 {
+    margin-top: 10px;
+  }
+
+  .synopsis p {
+    margin-top: 5px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -841,5 +938,82 @@ footer .content {
   .about-content p {
     padding: 0px;
     font-size: 16px;
+  }
+
+  .back {
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .back i {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  .back-logo {
+    width: 100px;
+    font-size: 30px;
+  }
+
+  .back-text {
+    margin-top: -30px;
+    margin-left: 0;
+  }
+
+  .trailler-video {
+    width: 60%;
+    height: 35%;
+  }
+
+  .trailler-video video {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .trailler-box {
+    width: 85%;
+    height: 375px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .trailler-images {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+  }
+
+  .trailler-images img {
+    margin-top: 20px;
+  }
+
+  .movie-judul {
+    margin-left: 140px;
+    margin-top: -80px;
+  }
+
+  .genre {
+    margin-left: 130px;
+    margin-top: 5px;
+  }
+
+  .box-line {
+    border: 1px solid #ffffff3a;
+    margin-top: 90px;
+    margin-left: 20px;
+  }
+
+  .synopsis {
+    margin-left: 20px;
+  }
+
+  .synopsis h2 {
+    margin-top: 10px;
+  }
+
+  .synopsis p {
+    margin-top: 5px;
   }
 }
